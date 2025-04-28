@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pokemon-image img {
+    width: 200px;
+    height: 200px;
+    filter: brightness(0);
+    transition: filter 0.5s;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#feedback {
+    margin-top: 15px;
+    font-weight: bold;
+}
